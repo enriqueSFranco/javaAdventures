@@ -35,11 +35,6 @@ public class AdventJava {
         return  answer;
     }
 
-    // TODO: Implementar la funcion findNaughtyStep
-    public char findNaughtyStep(String original, String modified) {
-        return ' ';
-    }
-
     public String decodeString(String message) {
         StringBuilder result = new StringBuilder();
         Stack<Integer> lettersStack = new Stack<>();
