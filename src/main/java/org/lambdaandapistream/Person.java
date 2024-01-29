@@ -1,4 +1,4 @@
-package org.lambdaAndApiStream;
+package org.lambdaandapistream;
 
 import java.time.LocalDate;
 

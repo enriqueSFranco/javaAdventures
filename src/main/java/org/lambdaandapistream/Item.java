@@ -1,4 +1,4 @@
-package org.lambdaAndApiStream;
+package org.lambdaandapistream;
 
 public class Item {
     private String name;

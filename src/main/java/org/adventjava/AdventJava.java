@@ -1,4 +1,4 @@
-package org.adventJava;
+package org.adventjava;
 
 import java.util.ArrayList;
 import java.util.HashSet;
