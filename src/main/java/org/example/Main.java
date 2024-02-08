@@ -1,15 +1,23 @@
 package org.example;
 
-import org.leetcode.PrefixSum;
-import org.leetcode.Solution;
 
-import java.util.Arrays;
+import org.javafiles.CreateFile;
+import org.javafiles.FileAccess;
+import org.javafiles.TextFileWriter;
 
 public class Main {
     public static void main(String[] args) {
-        int[][] arr = {{8,2}, {9,9}, {7,4}, {9,7}};
-        Solution sol = new Solution();
-        // [[8,7],[9,9],[7,4],[9,7]
-        System.out.print(sol.run(arr));
+        // ACCEDIENDO AUN ARCHIVO
+        FileAccess fileAccess = new FileAccess("/Users/enriquesfranco/Desktop/dc_comics");
+        //fileAccess.accessUniqueFile();
+        //fileAccess.listFilesInDirectory();
+
+        // CREANDO UN NUEVO ARCHIVO
+        //CreateFile createFile = new CreateFile("/Users/enriquesfranco/Desktop/dc_comics/super_heroes.txt");
+        //createFile.create();
+
+        // ESCRIBIR EN UN ARCHIVO
+        TextFileWriter textFileWriter = new TextFileWriter("/Users/enriquesfranco/Desktop/dc_comics/super_heroes.txt");
+        textFileWriter.writeToMyFile("DC Comics");
     }
 }
