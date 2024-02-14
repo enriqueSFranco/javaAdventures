@@ -1,4 +1,4 @@
-package org.datastructure;
+package org.data_structure;
 
 public class BinarySearchTree {
     private static class TreeNode {

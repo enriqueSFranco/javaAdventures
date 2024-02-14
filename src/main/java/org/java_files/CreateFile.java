@@ -1,4 +1,4 @@
-package org.javafiles;
+package org.java_files;
 
 import java.io.File;
 import java.io.IOException;

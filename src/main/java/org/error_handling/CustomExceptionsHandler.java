@@ -1,4 +1,4 @@
-package org.errorhandling;
+package org.error_handling;
 
 public class CustomExceptionsHandler {
 

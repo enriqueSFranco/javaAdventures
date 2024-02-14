@@ -1,4 +1,4 @@
-package org.poo.inheritance;
+package org.oop.inheritance;
 
 public class Employee extends Person {
     private String job;
