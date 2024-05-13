@@ -1,4 +1,4 @@
-package org.poo.polymorphism;
+package org.oop.polymorphism;
 
 public class Motorcycle extends Vehicle {
     private boolean performTrick;

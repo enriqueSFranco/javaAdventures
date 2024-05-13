@@ -1,4 +1,4 @@
-package org.poo.polymorphism;
+package org.oop.polymorphism;
 
 public class Car extends Vehicle {
     private boolean isSporty;

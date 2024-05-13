@@ -1,4 +1,4 @@
-package org.poo.inheritance;
+package org.oop.inheritance;
 
 public class Person {
     private String name;

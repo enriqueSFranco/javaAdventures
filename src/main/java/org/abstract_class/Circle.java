@@ -1,4 +1,4 @@
-package org.abstractclass;
+package org.abstract_class;
 
 public class Circle extends Figure {
     private double r;

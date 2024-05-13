@@ -1,4 +1,4 @@
-package org.bitmanipulation;
+package org.bit_manipulation;
 
 public class BitManipulation {
     int a = 5; // binario = 101 & 001
